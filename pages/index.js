@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <a href="https://cureangelman.org.uk">
+        <a href="https://cureangelman.org.uk" className={styles.logo}>
           <Image
             src="images/FAST_UK_LOGO.svg"
             width={600}
@@ -40,28 +40,6 @@ export default function Home() {
         Registered ZA672029 |&nbsp;{" "}
         <a href="mailto:info@cureangelman.org.uk">info@cureangelman.org.uk</a>
       </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        main img {
-          padding: 5rem 5rem;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-      `}</style>
     </div>
   );
 }
