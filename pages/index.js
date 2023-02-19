@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import SocialLinks from "../components/SocialLinks/SocialLinks";
 
 export default function Home() {
   return (
@@ -36,9 +37,9 @@ export default function Home() {
       </main>
 
       <footer>
+        <SocialLinks />
         Foundation For Angelman Syndrome Therapeutics UK | Charity 1167984 | ICO
-        Registered ZA672029 |&nbsp;{" "}
-        <a href="mailto:info@cureangelman.org.uk">info@cureangelman.org.uk</a>
+        Registered ZA672029
       </footer>
     </div>
   );
