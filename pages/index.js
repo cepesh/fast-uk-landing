@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -14,13 +15,23 @@ export default function Home() {
       </Head>
 
       <main>
+        <a href="https://cureangelman.org.uk">
+          <Image
+            src="images/FAST_UK_LOGO.svg"
+            width={600}
+            height={270}
+            alt="FAST UK Logo"
+          />
+        </a>
         <h1 className={styles.title}>
           Welcome to <a href="https://cureangelman.org.uk">FAST UK</a>!
         </h1>
 
         <p className={styles.description}>
           FAST is the Foundation for Angelman Syndrome Therapeutics UK. <br />
-          Visit our <a href="https://cureangelman.org.uk">main website</a>.
+          Visit our <a href="https://cureangelman.org.uk">main website</a> to
+          learn about Angelman Syndrome, current research and clinical trials,
+          and subscribe to updates.
         </p>
       </main>
 
@@ -39,6 +50,9 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
+        main img {
+          padding: 5rem 5rem;
+        }
         footer {
           width: 100%;
           height: 100px;
@@ -46,29 +60,6 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-        }
-        * {
-          box-sizing: border-box;
         }
       `}</style>
     </div>
