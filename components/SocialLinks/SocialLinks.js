@@ -1,4 +1,4 @@
-import styles from "./socialLinks.module.css";
+import styles from "../../styles/socialLinks.module.css";
 
 const SocialLinks = () => {
   return (
