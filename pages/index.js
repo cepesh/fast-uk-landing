@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
+import SocialLinks from "../components/SocialLinks";
+import Countdown from "../components/Countdown";
 
 export default function Home() {
   return (
@@ -32,7 +33,9 @@ export default function Home() {
           FAST is the Foundation for Angelman Syndrome Therapeutics UK. <br />
           Visit our <a href="https://cureangelman.org.uk">main website</a> to
           learn about Angelman Syndrome, current research and clinical trials,
-          and subscribe to updates.
+          and subscribe to updates. <br />
+          <br />
+          <Countdown />
         </p>
       </main>
 
