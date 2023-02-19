@@ -24,7 +24,11 @@ export default function Home() {
         </p>
       </main>
 
-      <footer></footer>
+      <footer>
+        Foundation For Angelman Syndrome Therapeutics UK | Charity 1167984 | ICO
+        Registered ZA672029 |&nbsp;{" "}
+        <a href="mailto:info@cureangelman.org.uk">info@cureangelman.org.uk</a>
+      </footer>
 
       <style jsx>{`
         main {
@@ -50,7 +54,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
-          text-decoration: none;
+          #text-decoration: none;
           color: inherit;
         }
         code {
