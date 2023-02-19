@@ -50,13 +50,7 @@ export default function Home() {
         footer img {
           margin-left: 0.5rem;
         }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          #text-decoration: none;
-          color: inherit;
-        }
+
         code {
           background: #fafafa;
           border-radius: 5px;
@@ -72,9 +66,6 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
         }
         * {
           box-sizing: border-box;
