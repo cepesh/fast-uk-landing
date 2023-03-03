@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { Source_Sans_3, Poppins } from "@next/font/google";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const source_sans_3 = Source_Sans_3({ subsets: ["latin"] });
 const poppins = Poppins({ weight: ["400", "700"], subsets: ["latin"] });
@@ -15,6 +16,7 @@ export default function MyApp({ Component, pageProps }) {
         }
       `}</style>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
